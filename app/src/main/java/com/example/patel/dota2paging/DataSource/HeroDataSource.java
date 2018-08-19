@@ -46,7 +46,7 @@ public class HeroDataSource extends ItemKeyedDataSource<Long, Heroes> {
     public MutableLiveData getInitialLoading() {
         return initialLoading;
     }
-    
+
 
     @Override
     public void loadInitial(@NonNull LoadInitialParams<Long> params, @NonNull final LoadInitialCallback<Heroes> callback) {

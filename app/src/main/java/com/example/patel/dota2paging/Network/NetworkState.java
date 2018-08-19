@@ -14,8 +14,8 @@ public class NetworkState {
     }
 
     static {
-        LOADED=new NetworkState(Status.SUCCESS,"Success");
-        LOADING=new NetworkState(Status.RUNNING,"Running");
+        LOADED = new NetworkState(Status.SUCCESS, "Success");
+        LOADING = new NetworkState(Status.RUNNING, "Running");
     }
 
     public Status getStatus() {
@@ -26,7 +26,7 @@ public class NetworkState {
         return msg;
     }
 
-    public enum Status{
+    public enum Status {
         RUNNING,
         SUCCESS,
         FAILED
